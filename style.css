@@ -18,6 +18,10 @@
 	vertical-align: middle !important;
 }
 
+#actionset button {
+	margin-bottom: 10px;
+}
+
 /* File types */
 
 .file {

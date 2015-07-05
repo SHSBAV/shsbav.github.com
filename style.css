@@ -20,7 +20,7 @@
 
 /* File types */
 
-.ft {
+.file {
 	display: inline-block;
 	width: 39px;
 	vertical-align: middle;
@@ -38,222 +38,48 @@
 	margin: 0px 5px 0px 0px;
 	text-shadow: 1px 1px 2px #000;
 	word-wrap: break-word;
-}
-
-	/* Microsoft office */
-	
-	.ft.excel,
-	.ft.excel.bandw:hover {
-		background-color: #4B9F4A;
-		border-color: #478F29
-	}
-	
-	.ft.word,
-	.ft.word.bandw:hover {
-		background-color: #2165A4;
-		border-color: #013983;
-	}
-	
-	.ft.powerpoint,
-	.ft.powerpoint.bandw:hover {
-		background-color: #EB5429;
-		border-color: #B66322;
-	}
-	
-	.ft.access,
-	.ft.access.bandw:hover {
-		background-color: #C13781;
-		border-color: #9F0055;
-	}
-	
-	.ft.publisher,
-	.ft.publisher.bandw:hover {
-		background-color: #00A694;
-		border-color: #008F58;
-	}
-	
-	.ft.onenote,
-	.ft.onenote.bandw:hover {
-		background-color: #BB2891;
-		border-color: #980D08;
-	}
-	
-	/* Apple iWork */
-	
-	.ft.pages,
-	.ft.pages.bandw:hover {
-		background-color: #373659;
-		border-color: #2F2B72;
-	}
-	
-	.ft.numbers,
-	.ft.numbers.bandw:hover {
-		background-color: #446DAB;
-		border-color: #013983;
-	}
-	
-	.ft.keynote,
-	.ft.keynote.bandw:hover {
-		background-color: #C97334;
-		border-color: #B66322;
-	}
-	
-	/* Adobe */
-	
-	.ft.dreamweaver,
-	.ft.dreamweaver.bandw:hover {
-		background-color: #78982F;
-		border-color: #007937;
-	}
-	
-	.ft.acrobat,
-	.ft.acrobat.bandw:hover {
-		background-color: #C61A15;
-		border-color: #8B0000;
-	}
-	
-	.ft.flash,
-	.ft.flash.bandw:hover {
-		background-color: #D30016;
-		border-color: #8B0000;
-	}
-	
-	.ft.photoshop,
-	.ft.photoshop.bandw:hover {
-		background-color: #01609C;
-		border-color: #013983;
-	}
-	
-	.ft.illustrator,
-	.ft.illustrator.bandw:hover {
-		background-color: #DE7939;
-		border-color: #B66322;
-	}
-	
-	.ft.indesign,
-	.ft.indesign.bandw:hover {
-		background-color: #BF4E7F;
-		border-color: #561E8D;
-	}
-	
-.ft.bandw {
-	background-color: #999;
-	border-color: #666;
-	color: #CCC;
-}
-
-.ft.bandw:hover {
-	color: #FFF;
-}
-
-.ft.inverse {
-	background-color: #FFF;
-	text-shadow: none;
-	box-shadow: none;
-}
+}	
 
 	/* Inverse Microsoft Office */
 
-	.ft.excel.inverse,
-	.ft.excel.bandw.inverse:hover {
+	.file.excel:hover {
 		color: #4B9F4A;
 		border-color: #4B9F4A;
 	}
 	
-	.ft.word.inverse,
-	.ft.word.bandw.inverse:hover {
+	.file.word:hover {
 		color: #2165A4;
 		border-color: #2165A4;
 	}
 	
-	.ft.powerpoint.inverse,
-	.ft.powerpoint.bandw.inverse:hover {
+	.file.powerpoint:hover {
 		color: #EB5429;
 		border-color: #EB5429;
 	}
-	
-	.ft.access.inverse,
-	.ft.access.bandw.inverse:hover {
-		color: #C13781;
-		border-color: #C13781;
-	}
-	
-	.ft.publisher.inverse,
-	.ft.publisher.bandw.inverse:hover {
-		color: #00A694;
-		border-color: #00A694;
-	}
-	
-	.ft.onenote.inverse,
-	.ft.onenote.bandw.inverse:hover {
-		color: #BB2891;
-		border-color: #BB2891;
-	}
-	
+
 	/* Inverse iWork */
 	
-	.ft.pages.inverse,
-	.ft.pages.bandw.inverse:hover {
+	.file.pages:hover {
 		color: #373659;
 		border-color: #373659;
 	}
 	
-	.ft.numbers.inverse,
-	.ft.numbers.bandw.inverse:hover {
+	.file.numbers:hover {
 		color: #446DAB;
 		border-color: #446DAB;
 	}
 	
-	.ft.keynote.inverse,
-	.ft.keynote.bandw.inverse:hover {
+	.file.keynote:hover {
 		color: #C97334;
 		border-color: #C97334;
 	}
 	
-	/* Inverse Adobe */
-	
-	.ft.dreamweaver.inverse,
-	.ft.dreamweaver.bandw.inverse:hover {
-		color: #78982F;
-		border-color: #78982F;
-	}
-	
-	.ft.acrobat.inverse,
-	.ft.acrobat.bandw.inverse:hover {
-		color: #C61A15;
-		border-color: #C61A15;
-	}
-	
-	.ft.flash.inverse,
-	.ft.flash.bandw.inverse:hover {
-		color: #D30016;
-		border-color: #D30016;
-	}
-	
-	.ft.photoshop.inverse,
-	.ft.photoshop.bandw.inverse:hover {
-		color: #01609C;
-		border-color: #01609C;
-	}
-	
-	.ft.illustrator.inverse,
-	.ft.illustrator.bandw.inverse:hover {
-		color: #DE7939;
-		border-color: #DE7939;
-	}
-	
-	.ft.indesign.inverse,
-	.ft.indesign.bandw.inverse:hover {
-		color: #BF4E7F;
-		border-color: #BF4E7F;
-	}
-
-.ft.bandw.inverse {
+.file.bandw.inverse {
 	color: #999;
 	border-color: #999;
 }
 
-.ft.bandw.inverse:hover {
+.file.bandw.inverse:hover {
 	background-color: #FFF;
 }
 

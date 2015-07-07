@@ -24,7 +24,7 @@
 
 /* File types */
 
-.file {
+td:last-of-type a {
 	display: inline-block;
 	width: 39px;
 	vertical-align: middle;
@@ -40,40 +40,59 @@
 	border-width: 1px;
 	margin: 0px 5px 0px 0px;
 	word-wrap: break-word;
-}	
+}
+
+td:last-of-type a:hover {
+	text-decoration: none;
+}
 
 	/* Inverse Microsoft Office */
 
-	.file.excel:hover {
+	td:last-of-type a[href*=".xls"]:hover {
 		color: #4B9F4A;
 		border-color: #4B9F4A;
 	}
+
+	td:last-of-type a[href*=".xls"]::after {
+		content: "XLSX";
+	}
 	
-	.file.word:hover {
+	td:last-of-type a[href*=".doc"]:hover {
 		color: #2165A4;
 		border-color: #2165A4;
 	}
+
+	td:last-of-type a[href*=".doc"]::after {
+		content: "DOC";
+	}
 	
-	.file.powerpoint:hover {
+	td:last-of-type a[href*=".ppt"]:hover {
 		color: #EB5429;
 		border-color: #EB5429;
 	}
 
+	td:last-of-type a[href*=".ppt"]::after {
+		content: "PPT";
+	}
+
 	/* Inverse iWork */
 	
-	.file.pages:hover {
+	td:last-of-type a[href*=".pages"]:hover {
 		color: #373659;
 		border-color: #373659;
 	}
-	
-	.file.numbers:hover {
-		color: #446DAB;
-		border-color: #446DAB;
+
+	td:last-of-type a[href*=".pages"]::after {
+		content: "PAGES";
 	}
 	
-	.file.keynote:hover {
+	td:last-of-type a[href*=".key"]:hover {
 		color: #C97334;
 		border-color: #C97334;
+	}
+
+	td:last-of-type a[href*=".key"]::after {
+		content: "KEY";
 	}
 
 /*116455*/

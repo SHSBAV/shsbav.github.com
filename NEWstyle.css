@@ -108,19 +108,6 @@ body[style*="background-position"]{
 	border-color:#CCCCCC
 }
 
-body.cke_panel_frame{
-	background:#FFFFFF !important
-}
-
-body .ui-helper-hidden-accessible{
-	top:-9999999px;
-	font-size:13px
-}
-
-body>form{
-	display:none !important
-}
-
 .content h1{
 	line-height:1.5em;
 	margin:0 0 0.5em
@@ -167,43 +154,11 @@ a{
 	font-weight:300
 }
 
-@media all and (max-width: 52.5em){
-	.header{
-		left:4em
-	}
-
-}
-
-@media all and (max-width: 40em){
-	.header{
-		height:auto;
-		padding:0;
-		position:relative;
-		left:0
-	}
-
-	.header .logo{
-		width:100%;
-		padding:3.25em 0.5em 0.5em 0.5em;
-		display:block;
-		font-size:1.5em;
-		line-height:1em;
-		background:url(/_includes/images/design/logo.png) no-repeat center 10px
-	}
-
-	.header .logo .text{
-		display:none;
-		position:relative;
-		left:0;
-		bottom:0
-	}
-
-}
 .AV_header_image{
 	width:100%;
-	height:31em;
+	height:104px;
 	overflow:hidden;
-	position:relative;
+	position:fixed;
 	z-index:1;
 	background:#FFF;
 	background-image:url(http://www.ageofarmour.com/3d/gallery/images/audio_mixer_carrara_2.jpg);
@@ -215,7 +170,7 @@ a{
 	margin-right:auto;
 	margin-left:auto;
 	float:none;
-	padding-top:2em;
+	padding-top:136px;
 	padding-bottom:2em
 }
 
@@ -302,6 +257,7 @@ a{
 
 
 .AV_divider_bar{
+	display: none;
 	width:100%;
 	padding-right:5%;
 	padding-left:5%;

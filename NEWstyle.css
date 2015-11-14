@@ -452,6 +452,6 @@ h2 {
 	top:-1px
 }
 
-.jotform-form {
-padding: 0
+#form-dummy {
+padding: -90px 0px -90px 0px
 }
